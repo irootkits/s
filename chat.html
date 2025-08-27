@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Chat</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>Chat</h1>
+  <button id="logout">Déconnexion</button>
+  <div id="messages"></div>
+  <form id="messageForm">
+    <input type="text" id="messageInput" placeholder="Votre message" required><br>
+    <button type="submit">Envoyer</button>
+  </form>
+
+  <script type="module" src="js/firebase.js"></script>
+  <script type="module" src="js/chat.js"></script>
+</body>
+</html>
